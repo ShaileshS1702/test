@@ -47,6 +47,7 @@ function coloring(){
     }
 }
 
+// Hei, dette er meg Elias
 
 function fargevelger(eventhos){
     tries++
