@@ -1,0 +1,28 @@
+header {
+    text-align: center;
+    background-color: red;
+    padding: 5px;
+}
+body{
+    margin: 0px;
+    width: 100%;
+}
+.game {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    background-color: tomato;
+}
+.grid-container {
+   
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-template-rows: 1fr;
+    /* grid-template-areas: "op1 op2 op3"; */
+
+}
+#playcanvas {
+    background-color: red;
+    border: orange solid 3px;
+}
