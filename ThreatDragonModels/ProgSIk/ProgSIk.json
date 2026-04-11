@@ -2107,98 +2107,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User checks in",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "User checks in"
-            ],
-            "id": "be396a90-c6f4-4f89-bdad-1ac5e0a7db03",
-            "source": {
-              "cell": "e7f50ee2-7d49-4f3e-92a6-e97ca9356a21",
-              "port": "104c999a-1438-4adc-807d-92f3f748cc82"
-            },
-            "target": {
-              "cell": "aa6bb877-6472-4994-99aa-0e81b683a7f9",
-              "port": "69fd385f-7527-40d2-a0ee-215343d79dd1"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "User gets access to the hotel",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "User gets access to the hotel"
-            ],
-            "id": "112c466a-704c-40a2-aaf7-a32d1f7a8ea8",
-            "source": {
-              "cell": "aa6bb877-6472-4994-99aa-0e81b683a7f9",
-              "port": "d9e4edb1-c2de-473f-8955-7b69858c84d4"
-            },
-            "target": {
-              "cell": "e7f50ee2-7d49-4f3e-92a6-e97ca9356a21",
-              "port": "504f7dad-783e-43a6-bb7c-e0398189716b"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Receptionist check if the user has an booking",
               "description": "",
               "outOfScope": false,
@@ -2234,6 +2142,190 @@
                 "y": -240
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data is returned regarding user booking",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data is returned regarding user booking"
+            ],
+            "id": "3d5e6c68-905e-4bdf-ae3b-33950de252cb",
+            "source": {
+              "cell": "2162a46a-74d8-4a6f-866a-3b9e50bd47d3",
+              "port": "e42b5305-6e96-43cd-a1ad-9a674a229ad9"
+            },
+            "target": {
+              "cell": "6666efb7-07f3-4125-acc7-c941ec73bb60",
+              "port": "d9e4edb1-c2de-473f-8955-7b69858c84d4"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "e8e5f40b-6064-4e08-8994-75796ba76941",
+            "source": {
+              "x": 635,
+              "y": -118
+            },
+            "target": {
+              "cell": "6666efb7-07f3-4125-acc7-c941ec73bb60",
+              "port": "d9e4edb1-c2de-473f-8955-7b69858c84d4"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User checks in",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "User checks in"
+            ],
+            "id": "be396a90-c6f4-4f89-bdad-1ac5e0a7db03",
+            "source": {
+              "cell": "e7f50ee2-7d49-4f3e-92a6-e97ca9356a21",
+              "port": "504f7dad-783e-43a6-bb7c-e0398189716b"
+            },
+            "target": {
+              "cell": "aa6bb877-6472-4994-99aa-0e81b683a7f9",
+              "port": "69fd385f-7527-40d2-a0ee-215343d79dd1"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Receptionist does an internal check of the user data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Receptionist does an internal check of the user data"
+            ],
+            "id": "903fd5da-991f-4167-ba95-0e54a8efd758",
+            "source": {
+              "cell": "aa6bb877-6472-4994-99aa-0e81b683a7f9",
+              "port": "c9ee6b0a-439d-4004-9df4-7110b0a462ea"
+            },
+            "target": {
+              "cell": "3906c352-4e36-43fd-a823-ae73339cef20",
+              "port": "7606f486-a08a-43e4-b761-6539c81cb500"
+            }
           },
           {
             "position": {
@@ -2598,6 +2690,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -2681,7 +2774,6 @@
               ]
             },
             "id": "6666efb7-07f3-4125-acc7-c941ec73bb60",
-            "zIndex": 16,
             "data": {
               "type": "tm.Process",
               "name": "internal check-in",
@@ -2699,8 +2791,8 @@
           },
           {
             "position": {
-              "x": 333,
-              "y": -8
+              "x": 190,
+              "y": -10
             },
             "size": {
               "width": 60,
@@ -2718,6 +2810,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -2801,7 +2894,6 @@
               ]
             },
             "id": "aa6bb877-6472-4994-99aa-0e81b683a7f9",
-            "zIndex": 17,
             "data": {
               "type": "tm.Process",
               "name": "Check-in",
@@ -2861,6 +2953,58 @@
             "target": {
               "cell": "2162a46a-74d8-4a6f-866a-3b9e50bd47d3",
               "port": "72f15625-f5fb-4c66-a531-b9441aacfb1b"
+            },
+            "vertices": [
+              {
+                "x": 980,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 19,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "a1bd35a3-32d2-4f93-a31c-eec42962b2bc",
+            "source": {
+              "x": 440,
+              "y": -90
+            },
+            "target": {
+              "cell": "aa6bb877-6472-4994-99aa-0e81b683a7f9",
+              "port": "4241648e-c977-44d3-b3f9-1faa62746ab8"
             }
           }
         ]
