@@ -198,8 +198,8 @@
           },
           {
             "position": {
-              "x": 760,
-              "y": 70
+              "x": 447.5,
+              "y": -118
             },
             "size": {
               "width": 112.5,
@@ -432,8 +432,8 @@
           },
           {
             "position": {
-              "x": 700,
-              "y": 290
+              "x": 560,
+              "y": 100
             },
             "size": {
               "width": 120,
@@ -2042,6 +2042,200 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User makes a booking",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "User makes a booking"
+            ],
+            "id": "c9116628-1157-41b5-83a4-ccbe1e6fe470",
+            "source": {
+              "cell": "e7f50ee2-7d49-4f3e-92a6-e97ca9356a21",
+              "port": "104c999a-1438-4adc-807d-92f3f748cc82"
+            },
+            "target": {
+              "cell": "7258789d-4cce-4f4a-b1fd-7ba02db683e1",
+              "port": "23232280-75a6-4843-bf6f-cef7dd9f364b"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User checks in",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "User checks in"
+            ],
+            "id": "be396a90-c6f4-4f89-bdad-1ac5e0a7db03",
+            "source": {
+              "cell": "e7f50ee2-7d49-4f3e-92a6-e97ca9356a21",
+              "port": "104c999a-1438-4adc-807d-92f3f748cc82"
+            },
+            "target": {
+              "cell": "aa6bb877-6472-4994-99aa-0e81b683a7f9",
+              "port": "69fd385f-7527-40d2-a0ee-215343d79dd1"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User gets access to the hotel",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "User gets access to the hotel"
+            ],
+            "id": "112c466a-704c-40a2-aaf7-a32d1f7a8ea8",
+            "source": {
+              "cell": "aa6bb877-6472-4994-99aa-0e81b683a7f9",
+              "port": "d9e4edb1-c2de-473f-8955-7b69858c84d4"
+            },
+            "target": {
+              "cell": "e7f50ee2-7d49-4f3e-92a6-e97ca9356a21",
+              "port": "504f7dad-783e-43a6-bb7c-e0398189716b"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Receptionist check if the user has an booking",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Receptionist check if the user has an booking"
+            ],
+            "id": "aa0cfbff-bd5d-41e5-810f-ae70e0638f55",
+            "source": {
+              "cell": "3906c352-4e36-43fd-a823-ae73339cef20",
+              "port": "104c999a-1438-4adc-807d-92f3f748cc82"
+            },
+            "target": {
+              "cell": "6666efb7-07f3-4125-acc7-c941ec73bb60",
+              "port": "4241648e-c977-44d3-b3f9-1faa62746ab8"
+            },
+            "vertices": [
+              {
+                "x": 630,
+                "y": -180
+              },
+              {
+                "x": 740,
+                "y": -240
+              }
+            ]
+          },
+          {
             "position": {
               "x": 110,
               "y": 670
@@ -2217,7 +2411,7 @@
           },
           {
             "position": {
-              "x": 400,
+              "x": 410,
               "y": 210
             },
             "size": {
@@ -2236,6 +2430,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -2319,7 +2514,6 @@
               ]
             },
             "id": "7258789d-4cce-4f4a-b1fd-7ba02db683e1",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "Booking",
@@ -2334,58 +2528,6 @@
               "privilegeLevel": "",
               "threats": []
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 14,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "cb87ce21-76fb-47ee-a981-f8bb6e01f25f",
-            "source": {
-              "cell": "e7f50ee2-7d49-4f3e-92a6-e97ca9356a21",
-              "port": "104c999a-1438-4adc-807d-92f3f748cc82"
-            },
-            "target": {
-              "cell": "7258789d-4cce-4f4a-b1fd-7ba02db683e1",
-              "port": "23232280-75a6-4843-bf6f-cef7dd9f364b"
-            },
-            "vertices": [
-              {
-                "x": 480,
-                "y": 140
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -2433,6 +2575,292 @@
             "target": {
               "cell": "6d205517-ca1a-4156-9f43-a3f04d05d410",
               "port": "e42b5305-6e96-43cd-a1ad-9a674a229ad9"
+            }
+          },
+          {
+            "position": {
+              "x": 840,
+              "y": -58
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "internal check-in"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "4241648e-c977-44d3-b3f9-1faa62746ab8"
+                },
+                {
+                  "group": "right",
+                  "id": "c9ee6b0a-439d-4004-9df4-7110b0a462ea"
+                },
+                {
+                  "group": "bottom",
+                  "id": "69fd385f-7527-40d2-a0ee-215343d79dd1"
+                },
+                {
+                  "group": "left",
+                  "id": "d9e4edb1-c2de-473f-8955-7b69858c84d4"
+                }
+              ]
+            },
+            "id": "6666efb7-07f3-4125-acc7-c941ec73bb60",
+            "zIndex": 16,
+            "data": {
+              "type": "tm.Process",
+              "name": "internal check-in",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 333,
+              "y": -8
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Check-in"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "4241648e-c977-44d3-b3f9-1faa62746ab8"
+                },
+                {
+                  "group": "right",
+                  "id": "c9ee6b0a-439d-4004-9df4-7110b0a462ea"
+                },
+                {
+                  "group": "bottom",
+                  "id": "69fd385f-7527-40d2-a0ee-215343d79dd1"
+                },
+                {
+                  "group": "left",
+                  "id": "d9e4edb1-c2de-473f-8955-7b69858c84d4"
+                }
+              ]
+            },
+            "id": "aa6bb877-6472-4994-99aa-0e81b683a7f9",
+            "zIndex": 17,
+            "data": {
+              "type": "tm.Process",
+              "name": "Check-in",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 18,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User data is matched with booking data in the anonymized data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "User data is matched with booking data in the anonymized data"
+            ],
+            "id": "bc70610e-c5a2-4309-acc8-d38de1f0889a",
+            "source": {
+              "x": 870,
+              "y": 0
+            },
+            "target": {
+              "cell": "2162a46a-74d8-4a6f-866a-3b9e50bd47d3",
+              "port": "72f15625-f5fb-4c66-a531-b9441aacfb1b"
             }
           }
         ]
