@@ -121,8 +121,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "9f500099-fbe9-4291-8ae9-fcdb742ecd44",
             "zIndex": -1,
+            "id": "9f500099-fbe9-4291-8ae9-fcdb742ecd44",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -866,7 +866,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Surveillance"
+                "text": "Surveillance system"
               },
               "body": {
                 "stroke": "#333333",
@@ -962,7 +962,7 @@
             "id": "949c27bc-be31-4209-9226-465c5e4bbb64",
             "data": {
               "type": "tm.Process",
-              "name": "Surveillance",
+              "name": "Surveillance system",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -973,6 +973,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
