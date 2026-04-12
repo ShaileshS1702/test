@@ -2750,13 +2750,6 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -3159,13 +3152,26 @@
                   "new": false,
                   "number": 19,
                   "score": ""
+                },
+                {
+                  "id": "84849aad-85a7-490c-b698-ef8e2182ee77",
+                  "title": "A reseptionist might get information about residents",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "A receptionist might get anonymized data about all residents rather than only confirm or deny a check-in request",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 21,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 0,
                 "tampering": 1,
                 "repudiation": 0,
-                "informationDisclosure": 0,
+                "informationDisclosure": 1,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
@@ -3418,6 +3424,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 20
+    "threatTop": 21
   }
 }
